@@ -1,0 +1,27 @@
+
+<dx-data-grid [dataSource]="dataSource"
+              (onEditorPreparing)="onPreparing($event)">
+    <dxo-editing mode="row"
+                 [allowUpdating]="true"
+                 [allowAdding]="true"
+                 [useIcons]="true">
+    </dxo-editing>
+    <dxi-column dataField="text"
+                editCellTemplate="editTemplate">
+        <div *dxTemplate="let cell of 'editTemplate'">
+            <dx-select-box [dataSource]="textSource"
+                           fieldTemplate="fieldTemplate"
+                           valueExpr="id"
+                           displayExpr="name"
+                           (onValueChanged)="onIdChanged(cell, $event)">
+                <div *dxTemplate="let field of 'fieldTemplate'">
+                    <dx-text-box [value]="temp"></dx-text-box>
+                </div>
+            </dx-select-box>
+        </div>
+    </dxi-column>
+    <dxi-column dataField="userId">
+    </dxi-column>
+    <dxi-column dataField="note">
+    </dxi-column>
+</dx-data-grid>
