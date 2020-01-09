@@ -1,0 +1,9 @@
+[0102/215949.077:ERROR:file_io_win.cc(161)] CreateFile C:\Users\vanlo\AppData\Local\Temp\karma-49407234\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0102/215949.078:ERROR:file_io_win.cc(170)] CreateFile C:\Users\vanlo\AppData\Local\Temp\karma-49407234\Crashpad\reports\2f2017e2-4e77-4130-bdfa-4806e053d8a3.dmp: The system cannot find the path specified. (0x3)
+[0102/215949.078:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0102/215949.577:ERROR:file_io_win.cc(161)] CreateFile C:\Users\vanlo\AppData\Local\Temp\karma-49407234\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0102/215949.577:ERROR:file_io_win.cc(170)] CreateFile C:\Users\vanlo\AppData\Local\Temp\karma-49407234\Crashpad\reports\ee46961d-b7a1-4f67-ac93-b832382ec146.dmp: The system cannot find the path specified. (0x3)
+[0102/215949.579:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0102/215950.109:ERROR:file_io_win.cc(161)] CreateFile C:\Users\vanlo\AppData\Local\Temp\karma-49407234\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0102/215950.110:ERROR:file_io_win.cc(170)] CreateFile C:\Users\vanlo\AppData\Local\Temp\karma-49407234\Crashpad\reports\5e2e5ed8-cd81-4bd7-bdde-7be731b9143f.dmp: The system cannot find the path specified. (0x3)
+[0102/215950.110:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

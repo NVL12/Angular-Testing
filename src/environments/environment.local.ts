@@ -1,5 +1,5 @@
 export const environment = {
-    production: true,
+    production: false,
     debug: false,
-    url: 'production url'
+    url: 'local url'
 };
